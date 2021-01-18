@@ -1,3 +1,9 @@
+'''Complexity:
+
+Time: O(n)
+Space: O(n)
+'''
+
 from collections import deque
 from .node import BinaryNode
 
