@@ -12,8 +12,8 @@ from collections import deque
 from .node import BinaryNode
 
 def level_order_traversal(root):
-    """
-    For each node in the queue, process nodes in the following order:
+    """Order of processing nodes:
+
     1. Root
     2. Left
     3. Right
