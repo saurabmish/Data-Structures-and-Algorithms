@@ -41,7 +41,12 @@ jobs:
       run: |
         python -m unittest discover -v
 
-    - name: Coverage
+    - name: Generate Coverage Metrics
+      run: |
+        coverage report -m
+        coverage xml
+
+    - name: Publish Coverage Report
       uses: codecov/codecov-action@v1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
