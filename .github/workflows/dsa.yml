@@ -43,6 +43,7 @@ jobs:
 
     - name: Generate Coverage Metrics
       run: |
+        pytest --cov -v
         coverage report -m
         coverage xml
 
