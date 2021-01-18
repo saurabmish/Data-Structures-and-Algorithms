@@ -1,7 +1,11 @@
-'''Complexity:
+'''Level Order Traversal
 
-Time: O(n)
-Space: O(n)
+Nodes are processed in increasing order of their level (1, 2, ...) and
+from left to right.
+This is similar to breadth first search in a graph.
+
+Time Complexity:  O(n)
+Space Complexity: O(n)
 '''
 
 from collections import deque
