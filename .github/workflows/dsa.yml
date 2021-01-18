@@ -42,7 +42,7 @@ jobs:
         python -m unittest discover -v
         pytest --cov -v
 
-    - name: Generate Coverage Metrics
+    - name: Generate and Process Coverage Metrics
       run: |
         coverage report -m
         coverage xml
