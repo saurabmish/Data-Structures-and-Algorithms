@@ -39,8 +39,14 @@ jobs:
 
     - name: Test
       run: |
-        python3 -m unittest discover -v
+        python -m unittest discover -v
 
     - name: Coverage
-      run: |
-        bash <(curl -s https://codecov.io/bash)
+      uses: codecov/codecov-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+
+
+    #- name: Coverage
+    #  run: |
+    #    bash <(curl -s https://codecov.io/bash)
