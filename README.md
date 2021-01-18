@@ -1,3 +1,6 @@
+![Data Structures and Algorithms](https://github.com/saurabmish/Data-Structures-and-Algorithms/workflows/Data%20Structures%20and%20Algorithms/badge.svg)
+[![codecov](https://codecov.io/gh/saurabmish/Data-Structures-and-Algorithms/branch/master/graph/badge.svg?token=93OSG78SRU)](https://codecov.io/gh/saurabmish/Data-Structures-and-Algorithms)
+
 # Data Structures and Algorithms
 
 Data Structures & Algorithms with comprehensive testing, coverage, and continuous integration.
