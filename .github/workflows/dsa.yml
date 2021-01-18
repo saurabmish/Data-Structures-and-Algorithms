@@ -54,3 +54,4 @@ jobs:
         files: ./coverage.xml
         directory: ./tests/coverage/
         flags: unittests
+        name: Cross-Platform Continuous Integration
