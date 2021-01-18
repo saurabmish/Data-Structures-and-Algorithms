@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macOS-latest, ubuntu-latest]
+        os: [macOS-latest, ubuntu-latest, windows-latest]
 
     steps:
     - uses: actions/checkout@v2
@@ -40,10 +40,10 @@ jobs:
     - name: Test
       run: |
         python -m unittest discover -v
+        pytest --cov -v
 
     - name: Generate Coverage Metrics
       run: |
-        pytest --cov -v
         coverage report -m
         coverage xml
 
