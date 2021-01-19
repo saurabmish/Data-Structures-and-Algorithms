@@ -5,7 +5,7 @@ from tree.validate_bst import validate_bst
 
 class TestValidateBST(unittest.TestCase):
 
-    def test_valid_bst(self):
+    def test_small_valid_bst(self):
         """Binary Tree
 
                     2
@@ -15,6 +15,28 @@ class TestValidateBST(unittest.TestCase):
         self.root = BinaryNode(2)
         self.root.left = BinaryNode(1)
         self.root.right = BinaryNode(5)
+
+        self.assertTrue(validate_bst(self.root))
+
+
+    def test_large_valid_bst(self):
+        """Binary Tree
+
+                      8
+                     / \
+                    /   \
+                   /     \
+                  6      10
+                 / \     / \
+                3   7   9   12
+        """
+        self.root = BinaryNode(8)
+        self.root.left = BinaryNode(6)
+        self.root.right = BinaryNode(10)
+        self.root.left.left = BinaryNode(3)
+        self.root.left.right = BinaryNode(7)
+        self.root.right.left = BinaryNode(9)
+        self.root.right.right = BinaryNode(12)
 
         self.assertTrue(validate_bst(self.root))
 

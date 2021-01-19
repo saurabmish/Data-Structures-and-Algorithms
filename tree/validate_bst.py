@@ -16,9 +16,9 @@ def validate_bst(root):
             current = current.left
         else:
             current = stack.pop()
-            if previous != None and current.key <= previous.key:
+            if previous and current.key <= previous.key:
                 return False
-            previous = root
+            previous = current
             current = current.right
 
     return True
