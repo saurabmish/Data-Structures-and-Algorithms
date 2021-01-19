@@ -5,7 +5,7 @@ from graph.depth_first_search import dfs
 class TestDepthFirstSearch(unittest.TestCase):
 
     def setUp(self):
-        """Data to test depth first search functionality."""
+        """Adjacency Matrix"""
         self.graph = {
             'A' : ['B','S'],
             'B' : ['A'],

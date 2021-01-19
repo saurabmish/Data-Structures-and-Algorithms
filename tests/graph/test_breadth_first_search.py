@@ -5,7 +5,7 @@ from graph.breadth_first_search import bfs
 class TestBreadthFirstSearch(unittest.TestCase):
 
     def setUp(self):
-        """Data to test breadth first search functionality."""
+        """Adjacency Matrix"""
         self.graph = {
             'A' : ['B','S'],
             'B' : ['A'],
