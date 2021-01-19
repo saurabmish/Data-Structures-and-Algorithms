@@ -34,7 +34,7 @@ class TestLowestCommonAncestor(unittest.TestCase):
         self.assertEqual(30,
             lca(self.root, self.root.left.left, self.root.right.right))
 
-    def test_node1_isparent_node2(self):
+    def test_self_descendant(self):
         """
         If one of the node's is the parent of the other, it is also their
         lowest common ancestor, i.e., lca(8, 11) = 11.
