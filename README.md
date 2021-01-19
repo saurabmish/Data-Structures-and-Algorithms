@@ -47,8 +47,8 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
 **NEXT UP ...**
 
-|   7    | Find the Lowest Common Ancestor of Two Nodes         | Binary Tree |
-|   8    | Find the Distance between Two Nodes                  | Binary Tree |
++ Find the Lowest Common Ancestor of Two Nodes
++ Find the Distance between Two Nodes
 
 ---
 
