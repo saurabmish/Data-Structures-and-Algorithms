@@ -1,9 +1,10 @@
 ![Data Structures and Algorithms](https://github.com/saurabmish/Data-Structures-and-Algorithms/workflows/Data%20Structures%20and%20Algorithms/badge.svg)
 [![codecov](https://codecov.io/gh/saurabmish/Data-Structures-and-Algorithms/branch/master/graph/badge.svg?token=93OSG78SRU)](https://codecov.io/gh/saurabmish/Data-Structures-and-Algorithms)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cead59f3aa6e1320ad5e/maintainability)](https://codeclimate.com/github/saurabmish/Data-Structures-and-Algorithms/maintainability)
 
 # Data Structures and Algorithms
 
-Data Structures & Algorithms with comprehensive testing, coverage, and continuous integration.
+Data Structures & Algorithms with comprehensive testing, coverage, and cross-platform continuous integration.
 
 The goal of this repository is to smoothly transition from one problem to another, document interesting aspects, and cover a good number of practical problems.
 
@@ -44,6 +45,10 @@ The goal of this repository is to smoothly transition from one problem to anothe
 |   5    | Check if Binary Tree is Binary Search Tree           | In Order Traversal                      | [LeetCode 98][5]  |
 |   6    | K-th Smallest Element in Binary Search Tree          | In Order Traversal                      | [LeetCode 230][6] |
 
+**NEXT UP ...**
+
+|   7    | Find the Lowest Common Ancestor of Two Nodes         | Binary Tree |
+|   8    | Find the Distance between Two Nodes                  | Binary Tree |
 
 ---
 
