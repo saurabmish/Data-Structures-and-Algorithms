@@ -59,9 +59,9 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
 | Serial | Problem                                              | Tags                                    | Online            |
 | :----: | :-----:                                              | :-:                                     | :----:            |
-|   1    | Merge Sort                                           |                                         |                   |
-|   2    | Quick Sort                                           |                                         |                   |
-|   3    | Quick Select                                         |                                         |                   |
+|   1    | Merge Sort                                           | Fast Sort                               |                   |
+|   2    | Quick Sort                                           | (Fastest) In-place Sort                 |                   |
+|   3    | Quick Select                                         | K-th Smallest (or Largest) Value        |                   |
 
 
 **MISCELLANEOUS**
