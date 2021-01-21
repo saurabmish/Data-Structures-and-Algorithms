@@ -8,8 +8,6 @@ Data Structures & Algorithms with comprehensive testing, coverage, and cross-pla
 
 The goal of this repository is to smoothly transition from one problem to another, document interesting aspects, and cover a good number of practical problems.
 
-Completed problems have an active LeetCode link.
-
 
 ## Data Structures
 
@@ -34,7 +32,7 @@ Completed problems have an active LeetCode link.
 + Dynamic Programming
 
 
-### Completed Topics
+### Completed
 
 **TREE**
 
@@ -48,6 +46,7 @@ Completed problems have an active LeetCode link.
 |   6    | K-th Smallest Element in Binary Search Tree          | In Order Traversal                      | [LeetCode 230][6] |
 |   7    | Lowest Common Ancestor                               | Binary Tree, DFS                        | [LeetCode 236][7] |
 
+
 **GRAPH**
 
 | Serial | Problem                                              | Tags                                    | Online            |
@@ -56,19 +55,44 @@ Completed problems have an active LeetCode link.
 |   2    | Breadth First Search                                 |  Traversal                              |                   |
 
 
+**DIVIDE & CONQUER**
+
+| Serial | Problem                                              | Tags                                    | Online            |
+| :----: | :-----:                                              | :-:                                     | :----:            |
+|   1    | Merge Sort                                           |                                         |                   |
+|   2    | Quick Sort                                           |                                         |                   |
+|   3    | Quick Select                                         |                                         |                   |
+
+
+**MISCELLANEOUS**
+
+| Serial | Problem                                              | Tags                                    | Online            |
+| :----: | :-----:                                              | :-:                                     | :----:            |
+|   1    | Merge Two Sorted Arrays into Third                   | Merge Sort                              |                   |
+|   2    | Binary Search                                        | (Fastest) Search                        |                   |
+
+
 **NEXT UP ...**
 
 + Find the Distance between Two Nodes
+
 + Size of Largest Binary Search Tree in Binary Tree
+
 + Pair Sum BST
+
 + ***DOCUMENT***
+
     1. partition schemes in quick sort - Lomuto & Hoare
+
     2. Choice of pivot in quick sort
-    3. Using adjacency matrix vs adjacency list in graph (graph density)
+
+    3. Merge sort v/s Quick sort (best way to sort is nlogn)
+
+    4. Using adjacency matrix vs adjacency list in graph (graph density)
+
 + Binary Search Tree Operations: Insert, Search, and Delete
 
 ---
-
 
 [1]: https://leetcode.com/problems/binary-tree-inorder-traversal/
 [2]: https://leetcode.com/problems/binary-tree-preorder-traversal/
