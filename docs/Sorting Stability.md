@@ -39,14 +39,14 @@ A stable algorithm makes sure that the right 2 employees per phone number get th
 
 *Stable*:
 
-Bubble Sort
-Insertion Sort
-Counting Sort
-Merge Sort
++ Bubble Sort
++ Insertion Sort
++ Counting Sort
++ Merge Sort
 
 *Unstable*:
 
-Heap sort
-Selection sort
-Shell sort
-Quick sort
++ Heap sort
++ Selection sort
++ Shell sort
++ Quick sort
