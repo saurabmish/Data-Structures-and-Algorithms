@@ -78,8 +78,7 @@ The goal of this repository is to smoothly transition from one problem to anothe
 | Serial | Problem                                                | Tags                               | Online            |
 | :----: | :-----:                                                | :-:                                | :----:            |
 |   1    | Change Making  (coins have common denomination)        |                                    |                   |
-|   2    | Activity Selection (Unweighted)                        | Interval Scheduling Maximization   |                   |
-
+|   2    | Activity Selection (weighted)                          | Interval Scheduling Maximization   |                   |
 
 
 **MISCELLANEOUS**
