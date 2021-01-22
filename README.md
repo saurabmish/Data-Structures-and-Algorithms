@@ -59,9 +59,10 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
 | Serial | Problem                                              | Tags                                    | Online            |
 | :----: | :-----:                                              | :-:                                     | :----:            |
-|   1    | Merge Sort                                           | Fast Sort                               |                   |
-|   2    | Quick Sort                                           | (Fastest) In-place Sort                 |                   |
-|   3    | Quick Select                                         | K-th Smallest (or Largest) Value        |                   |
+|   1    | Karatsuba Multiplication                             | Multiplication Without Using *          |
+|   2    | Merge Sort                                           | Fast Sort                               |                   |
+|   3    | Quick Sort                                           | (Fastest) In-place Sort                 |                   |
+|   4    | Quick Select                                         | K-th Smallest (or Largest) Value        | [LeetCode 215][8] |
 
 
 **MISCELLANEOUS**
@@ -76,10 +77,6 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
 + Find the Distance between Two Nodes
 
-+ Size of Largest Binary Search Tree in Binary Tree
-
-+ Pair Sum BST
-
 + ***DOCUMENT***
 
     1. partition schemes in quick sort - Lomuto & Hoare
@@ -90,8 +87,6 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
     4. Using adjacency matrix vs adjacency list in graph (graph density)
 
-+ Binary Search Tree Operations: Insert, Search, and Delete
-
 ---
 
 [1]: https://leetcode.com/problems/binary-tree-inorder-traversal/
@@ -101,3 +96,4 @@ The goal of this repository is to smoothly transition from one problem to anothe
 [5]: https://leetcode.com/problems/validate-binary-search-tree/
 [6]: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 [7]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+[8]: https://leetcode.com/problems/kth-largest-element-in-an-array/
