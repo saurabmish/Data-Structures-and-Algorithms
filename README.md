@@ -59,10 +59,28 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
 | Serial | Problem                                              | Tags                                    | Online            |
 | :----: | :-----:                                              | :-:                                     | :----:            |
-|   1    | Karatsuba Multiplication                             | Multiplication Without Using *          |
+|   1    | Karatsuba Multiplication                             | Multiplication Without Using *          |                   |
 |   2    | Merge Sort                                           | Fast Sort                               |                   |
 |   3    | Quick Sort                                           | (Fastest) In-place Sort                 |                   |
 |   4    | Quick Select                                         | K-th Smallest (or Largest) Value        | [LeetCode 215][8] |
+
+
+**GREEDY**
+
+| Serial | Problem                                              | Tags                                    | Online            |
+| :----: | :-----:                                              | :-:                                     | :----:            |
+|   1    | Change Making                                        |                                         |                   |
+|   2    | Activity Selection (Unweighted)                      | Interval Scheduling Maximization        |                   |
+
+
+**DYNAMIC PROGRAMMING**
+
+| Serial | Problem                                                | Tags                                    | Online            |
+| :----: | :-----:                                                | :-:                                     | :----:            |
+|   1    | Change Making                                          |                                         |                   |
+|   1    | Change Making (Common denominations; **Greedy fails**) |                                         |                   |
+|   2    | Activity Selection (Unweighted)                        | Interval Scheduling Maximization        |                   |
+|   3    | Activity Selection (Weighted; **Greedy fails**)        | Interval Scheduling Maximization        |                   |
 
 
 **MISCELLANEOUS**
@@ -86,6 +104,8 @@ The goal of this repository is to smoothly transition from one problem to anothe
     3. Merge sort v/s Quick sort (best way to sort is nlogn)
 
     4. Using adjacency matrix vs adjacency list in graph (graph density)
+
+    5. Greedy v/s Dynamic Programming
 
 ---
 
