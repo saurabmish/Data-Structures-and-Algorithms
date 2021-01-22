@@ -2,24 +2,23 @@
 
 In-place sorting algorithm.
 
-Time Complexity: O(nlogn)
-Space Complexity: O(logn)
+Time Complexity (likely): O(nlogn)
+Space Complexity:         O(logn)
 '''
 
 def partition(arr, low, high):
     """Hoare Partition."""
-    pivot = arr[(low+high) // 2]
-    i = low
-    j = high
-    while i < j:
-        while arr[i] < pivot:
-            i += 1
-        while arr[j] > pivot:
-            j -= 1
+    pivot = arr[(low + high) // 2]
+    while True:
+        while arr[low] < pivot:
+            low += 1
+        while arr[high] > pivot:
+            high -= 1
 
-        if i >= j:
-            return j
-        arr[i], arr[j] = arr[j], arr[i]
+        if low >= high:
+            return high
+        arr[low], arr[high] = arr[high], arr[low]
+        low += 1; high -= 1
 
 def quicksort(arr, low, high):
     if low < high:
@@ -27,10 +26,3 @@ def quicksort(arr, low, high):
         quicksort(arr, low, mid)
         quicksort(arr, mid + 1, high)
     return arr
-
-def main():
-    integer_array = [-2, 0, 32, 1, 56, 99, -4]
-    print(quicksort(integer_array, 0, len(integer_array) - 1))
-
-if __name__ == '__main__':
-    main()
