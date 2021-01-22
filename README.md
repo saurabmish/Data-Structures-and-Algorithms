@@ -69,18 +69,17 @@ The goal of this repository is to smoothly transition from one problem to anothe
 
 | Serial | Problem                                              | Tags                                    | Online            |
 | :----: | :-----:                                              | :-:                                     | :----:            |
-|   1    | Change Making                                        |                                         |                   |
-|   2    | Activity Selection (Unweighted)                      | Interval Scheduling Maximization        |                   |
+|   1    | Change Making  (fails on common denominations)       |                                         |                   |
+|   2    | Activity Selection (fails on weighted)               | Interval Scheduling Maximization        |                   |
 
 
 **DYNAMIC PROGRAMMING**
 
-| Serial | Problem                                                | Tags                                    | Online            |
-| :----: | :-----:                                                | :-:                                     | :----:            |
-|   1    | Change Making                                          |                                         |                   |
-|   1    | Change Making (Common denominations; **Greedy fails**) |                                         |                   |
-|   2    | Activity Selection (Unweighted)                        | Interval Scheduling Maximization        |                   |
-|   3    | Activity Selection (Weighted; **Greedy fails**)        | Interval Scheduling Maximization        |                   |
+| Serial | Problem                                                | Tags                               | Online            |
+| :----: | :-----:                                                | :-:                                | :----:            |
+|   1    | Change Making  (coins have common denomination)        |                                    |                   |
+|   2    | Activity Selection (Unweighted)                        | Interval Scheduling Maximization   |                   |
+
 
 
 **MISCELLANEOUS**
