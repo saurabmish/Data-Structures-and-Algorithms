@@ -1,7 +1,7 @@
 '''Kadane's Algorithm
 
-This algorithm is used to find the maximum sum of all subarrays in a
-contiguous subarray.
+This algorithm is used to find the maximum sum of largest contiguous
+subarray.
 
 Consider A to be the integer array and B to be the contiguous subarray.
 If the maximum subarray ends at index i, and sums to B[i], then there
