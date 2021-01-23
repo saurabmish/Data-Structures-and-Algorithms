@@ -55,6 +55,16 @@ The goal of this repository is to smoothly transition from one problem to anothe
 |   2    | Breadth First Search                                 |  Traversal                              |                   |
 
 
+**STACK**
+
+| Serial | Problem                                              | Tags                                    | Online            |
+| :----: | :-----:                                              | :-:                                     | :----:            |
+|   1    | Convert Decimal Number to its Binary Equivalent      |                                         |                   |
+|   2    | Evaluate Postfix Expression                          |                                         |                   |
+|   3    | Check if an Expression Contains Balanced Parenthesis |                                         |                   |
+|   4    | Convert Infix Expression to its Postfix Equivalent   |                                         |                   |
+
+
 **DIVIDE & CONQUER**
 
 | Serial | Problem                                              | Tags                                    | Online            |
@@ -79,6 +89,8 @@ The goal of this repository is to smoothly transition from one problem to anothe
 | :----: | :-----:                                                | :-:                                | :----:            |
 |   1    | Change Making  (coins have common denomination)        |                                    |                   |
 |   2    | Activity Selection (weighted)                          | Interval Scheduling Maximization   |                   |
+|   3    | Longest Increasing (and non-decreasing) Subsequence    |                                    |                   |
+|   4    | Maximum Sum Subarray                                   | Kadane's Algorithm                 |                   |
 
 
 **MISCELLANEOUS**
