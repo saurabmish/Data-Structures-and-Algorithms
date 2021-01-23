@@ -48,7 +48,7 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        files: coverage.xml
+        files: ./tests/coverage/coverage.xml
         directory: ./tests/coverage/
         flags: unittests
         name: Cross-Platform Continuous Integration
